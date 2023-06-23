@@ -1,0 +1,90 @@
+body,html{
+   margin: 0;
+   padding: 0;
+   background-color: rgba(215, 198, 217, 0.518);
+}
+header{
+   margin: 0;
+   padding: 0;
+   border-bottom: 1em rgb(117, 67, 121) solid;
+   background-color: rgb(160, 118, 165);
+   top: 0;
+   width: 100vw;
+   height: 9em;
+   position: relative;
+
+}
+header div{
+   position: absolute;
+   height: 7em;
+   width: 7em;
+   border: 1em rgb(117, 67, 121) solid;
+   border-radius: 100%;
+   margin-top: .5em;
+   background-color: rgba(186, 162, 189, 0.674);   
+}
+
+header div h3{
+   margin-top: 45px;
+   color: rgb(64, 43, 65);
+   text-align: center;
+}
+
+header div h3:last-child{
+   display: none;
+}
+
+header h1{
+   position: absolute;
+   margin-left: 17em;
+   margin-top: 2em;
+   color: rgb(64, 43, 65);
+   
+}
+.aniRoll{
+   margin-left: 70em;
+   transition: 2000ms;
+}
+
+.cover marquee{
+   padding-top: 200px;
+   position: absolute;
+}
+
+.content{
+   width: 100vw;   
+   display: none;
+}
+
+main{
+   margin-top: 1em;
+   margin-left: 17em;
+}
+
+main h3{
+   color: rgb(64, 43, 65);
+}
+
+.input{
+   margin-left: 0;
+   transition: 2000ms;
+}
+
+.all{
+   display: flex;
+}
+
+.output{
+   margin-top: 25em;
+   margin-left: 1em;
+   margin-right: 1em;
+}
+
+.clock {
+   display: inline-block;
+   margin: 10px;
+   padding: 10px;
+   border: 2px solid #6d6969;
+   border-radius: 4px;
+   text-align: center;
+   }
